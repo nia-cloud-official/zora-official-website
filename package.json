@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build-local": "astro build",
-    "build": "astro build --remote",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -32,6 +32,7 @@
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "astro": "^4.7.1",
+    "astro-icon": "^1.1.0",
     "balance-text": "^3.3.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -59,6 +60,6 @@
   "author": {
     "name": "Milton Vafana",
     "email": "mailto: miltonhyndrex@gmail.com",
-    "github": "https://github.com/nia-cloud-official/",
+    "github":"https://github.com/nia-cloud-official/"
   }
 }
