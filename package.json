@@ -1,17 +1,16 @@
 {
-  "name": "astro-nomy",
+  "name": "zora-website",
   "type": "module",
   "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build-local": "astro build",
-    "build": "astro build",
+    "build": "astro build --remote",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/db": "^0.11.0",
     "@astrojs/mdx": "^2.3.1",
     "@astrojs/react": "^3.3.2",
     "@astrojs/rss": "^4.0.5",
@@ -57,5 +56,10 @@
     "mdast-util-toc": "^7.0.1",
     "remark": "^15.0.1",
     "unist-util-visit": "^5.0.0"
+  },
+  "author": {
+    "name": "Milton Vafana",
+    "email": "mailto: miltonhyndrex@gmail.com",
+    "github":"https://github.com/nia-cloud-official/"
   }
 }
