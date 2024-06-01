@@ -1,4 +1,3 @@
-import db from "@astrojs/db";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
@@ -10,7 +9,7 @@ import simpleStackForm from "simple-stack-form";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-nomy.vercel.app",
+  site: "https://zoralumin.com",
   integrations: [
     mdx({
       syntaxHighlight: "shiki",
@@ -25,7 +24,6 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    db(),
     simpleStackForm(),
   ],
   output: "hybrid",
