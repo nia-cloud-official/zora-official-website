@@ -9,6 +9,7 @@ import simpleStackForm from 'simple-stack-form';
 
 export default defineConfig({
   site: 'https://zoralumin.com',
+  output: 'dist',
   integrations: [
     mdx({
       syntaxHighlight: 'hiki',
