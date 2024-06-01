@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import vercel from '@astrojs/vercel/serverless';
 import icon from 'astro-icon';
-import simpleStackForm from 'imple-stack-form';
+import simpleStackForm from 'simple-stack-form';
 
 export default defineConfig({
   site: 'https://zoralumin.com',
