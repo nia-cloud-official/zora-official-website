@@ -5,11 +5,9 @@ import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import vercel from '@astrojs/vercel/serverless';
 import icon from 'astro-icon';
-import simpleStackForm from 'simple-stack-form';
 
 export default defineConfig({
   site: 'https://zoralumin.com',
-  output: 'dist',
   integrations: [
     mdx({
       syntaxHighlight: 'hiki',
@@ -24,7 +22,6 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    simpleStackForm(),
   ],
   output: 'hybrid',
   adapter: vercel({
