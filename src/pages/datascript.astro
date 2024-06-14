@@ -1,0 +1,17 @@
+---
+import BentoGrid from "@/components/sections/bentogrid.astro";
+import Features from "@/components/sections/features.astro";
+import HeroLanding from "@/components/sections/hero-landing.astro";
+import Introduction from "@/components/sections/introduction.astro";
+import PreviewLanding from "@/components/sections/preview-landing.astro";
+import Testimonials from "@/components/sections/testimonials.astro";
+
+import { infos } from "@/config/landing";
+import MainLayout from "@/layouts/main-layout.astro";
+---
+
+<MainLayout title="Home">
+  <lntroduction data={infos[0]} reverse={true} />
+  <Features />
+  <Testimonials />
+</MainLayout>
